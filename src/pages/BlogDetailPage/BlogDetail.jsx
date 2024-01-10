@@ -10,7 +10,7 @@ const BlogDetail = () => {
 	const [post, setPost] = useState(null);
 
 	const getCurrentPost = () => {
-		const url = `http://localhost:8000/get_single_post/${slug}`
+		const url = `https://funzsocial.onrender.com/get_single_post/${slug}`
 		const config = {
 			headers: {
 				"Content-Type": "application/json"
@@ -35,7 +35,7 @@ const BlogDetail = () => {
 					{post && (
 						<div className='big_article_container'>
 							<div className='header_image_container'>
-								<img src={`http://localhost:8000/${post.header_image}`} alt='header for blog' className='big_header_img' />
+								<img src={`https://funzsocial.onrender.com/${post.header_image}`} alt='header for blog' className='big_header_img' />
 							</div>
 							<div className='title_container'>
 								<h2>{post.title}</h2>

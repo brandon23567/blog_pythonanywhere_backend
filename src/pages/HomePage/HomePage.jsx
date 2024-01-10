@@ -7,7 +7,7 @@ import axios from 'axios';
 const HomePage = () => {
 	const [posts, setPosts] = useState([])
 	const getBlogPosts = () => {
-		const url = "http://localhost:8000/get_all_posts/"
+		const url = "https://funzsocial.onrender.com/get_all_posts/"
 		const config = {
 			headers: {
 				"Content-Type": "multipart/form-data"
@@ -39,7 +39,7 @@ const HomePage = () => {
 								<div className='single_post'>
 									<Link to={`/home/${post.slug}`} className='link_to_detail'>
 										<div className='single_post_leftside'>
-											<img src={`http://localhost:8000/${post.header_image}`} alt='blog_header_image' className='blog_header_img' />
+											<img src={`https://funzsocial.onrender.com/${post.header_image}`} alt='blog_header_image' className='blog_header_img' />
 										</div>
 										<div className='single_post_rightside'>
 											<h3>{post.title}</h3>

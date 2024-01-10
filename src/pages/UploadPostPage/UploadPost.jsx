@@ -36,7 +36,7 @@ const UploadPost = () => {
 		formData.append("postBody", postBody)
 		formData.append("headerImage", headerImage)
 
-		const url = "http://localhost:8000/upload_post/"
+		const url = "https://funzsocial.onrender.com/upload_post/"
 		const config = {
 			headers: {
 				"Content-Type": "multipart/form-data"
