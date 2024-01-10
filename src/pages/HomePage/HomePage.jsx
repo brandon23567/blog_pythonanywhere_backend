@@ -39,7 +39,7 @@ const HomePage = () => {
 								<div className='single_post'>
 									<Link to={`/home/${post.slug}`} className='link_to_detail'>
 										<div className='single_post_leftside'>
-											<img src={`https://funzsocial.onrender.com/${post.header_image}`} alt='blog_header_image' className='blog_header_img' />
+											<img src={`https://funzsocial.onrender.com${post.header_image}`} alt='blog_header_image' className='blog_header_img' />
 										</div>
 										<div className='single_post_rightside'>
 											<h3>{post.title}</h3>
