@@ -1,0 +1,30 @@
+.navbar_outer_main_container .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid rgb(212, 212, 212);
+    margin-bottom: 1.2rem;
+}
+
+.navbar_outer_main_container .container .logo_container h2{
+    font-weight: 500;
+    cursor: pointer;
+    color: royalblue;
+}
+
+.navbar_outer_main_container .container .navbar_links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar_outer_main_container .container .navbar_links li{
+    list-style: none;
+    margin: 0px 1rem;
+}
+
+.navbar_outer_main_container .container .navbar_links li .actual_link{
+    text-decoration: none;
+    color: #000;
+}

@@ -1,0 +1,43 @@
+.outer_post_main_container .container .content_container h2{
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+}
+
+.outer_post_main_container .container .content_container .form_container .actual_form_to_upload{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.outer_post_main_container .container .content_container .form_container .actual_form_to_upload .single_input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 1px solid rgb(212, 212, 212);
+}
+
+.outer_post_main_container .container .content_container .form_container .actual_form_to_upload .single_input input{
+    padding: 1rem 2rem;
+}
+
+.outer_post_main_container .container .content_container .form_container .actual_form_to_upload .single_input .descript_area_upload{
+    height: 150px;
+    padding: 1rem 2rem;
+    font-size: 17px;
+}
+
+.outer_post_main_container .container .content_container .form_container .actual_form_to_upload .single_input .content_area_upload{
+    height: 250px;
+    font-size: 18px;
+    padding: 2rem;
+}
+
+.outer_post_main_container .container .content_container .form_container .actual_form_to_upload .upload_btn_contaner .upload_btn{
+    padding: 15px 2rem;
+    color: #fff;
+    border: none;
+    background: none;
+    background-color: green;
+    cursor: pointer;
+    font-size: 17px;
+}
