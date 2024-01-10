@@ -35,7 +35,7 @@ const BlogDetail = () => {
 					{post && (
 						<div className='big_article_container'>
 							<div className='header_image_container'>
-								<img src={`https://funzsocial.onrender.com${post.header_image}`} alt='header for blog' className='big_header_img' />
+								<img src={post.header_image} alt='header for blog' className='big_header_img' />
 							</div>
 							<div className='title_container'>
 								<h2>{post.title}</h2>
